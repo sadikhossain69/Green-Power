@@ -2,7 +2,7 @@ const Footer = () => {
     return (
         <>
             <footer className="text-gray-400 bg-gray-900 body-font">
-                <div className="container px-5 py-5">
+                <div className="container mx-auto px-5 py-5">
                     <div className="flex md:justify-between md:px-8 justify-center items-center flex-col md:flex-row">
                         <div className="  px-4">
                             <p className="text-sm">Send Email</p>

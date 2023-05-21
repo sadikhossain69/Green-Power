@@ -19,7 +19,7 @@ const WhatWeDo = () => {
                             Quality Work For an Affordable Price
                         </h1>
                     </span>
-                    <div className="flex justify-between py-10 px-6">
+                    <div className="flex md:flex-row flex-col justify-between py-10 px-6 space-y-3 md:space-y-0">
                         <div>
                             <p className="text-[#0000FF] font-semibold border-b-2 border-[#52FF00] inline text-2xl">Why Green Powered Systems?</p>
                             <ul>
