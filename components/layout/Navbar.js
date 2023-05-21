@@ -20,7 +20,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end hidden md:inline-flex space-x-5">
                     <a>Home</a>
-                    <a>About</a>
+                    <a href="#contact">About</a>
                     <a>Services</a>
                     <a className="btn bg-primary ">contact us</a>
                 </div>
