@@ -1,11 +1,11 @@
 const WhatWeDo = () => {
     return (
         <>
-            <section>
+            <section className=" container mx-auto">
                 <div>
                     <p className="text-[#0000FF] text-3xl text-center font-semibold">What do we do?!</p>
                 </div>
-                <div className=" relative container mx-auto flex flex-col justify-between items-center lg:flex-row py-10">
+                <div className=" relative flex flex-col justify-between items-center lg:flex-row py-10">
                     <img src="whatWeDoLeft.jpg" alt="" />
                     <p className="text-[#0000FF] font-semibold text-center text-6xl">
                         Give us a call to get started
