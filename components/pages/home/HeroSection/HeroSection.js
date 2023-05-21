@@ -20,7 +20,7 @@ const HeroSection = () => {
                                 <div className='flex'>
                                     <AiFillStar color='#52FF00' />
                                     <AiFillStar color='#52FF00' />
-                                    <AiFillStar color='#52FF00' />
+                                    <AiFillStar color='#52FF00' /> 
                                     <AiFillStar color='#52FF00' />
                                     <AiFillStar color='#52FF00' />
                                 </div>
