@@ -1,5 +1,6 @@
 import AboutUs from "@/components/pages/home/AboutUs/AboutUs";
 import BigImage from "@/components/pages/home/BigImage/BigImage";
+import ContactAddress from "@/components/pages/home/ContactAddress/ContactAddress";
 import HeroSection from "@/components/pages/home/HeroSection/HeroSection";
 import LogoSlider from "@/components/pages/home/LogoSlider/LogoSlider";
 import OurServices from "@/components/pages/home/OurServices/OurServices";
@@ -14,6 +15,7 @@ export default function Home() {
       <OurServices />
       <LogoSlider />
       <BigImage />
+      <ContactAddress />
     </main>
   )
 }
