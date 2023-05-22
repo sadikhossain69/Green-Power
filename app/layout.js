@@ -1,6 +1,9 @@
+"use client"
 import Navbar from '@/components/layout/Navbar'
 import './globals.css'
 import Footer from '@/components/layout/Footer'
+import { Suspense, useEffect, useState } from 'react'
+import Loading from './loading'
 
 export const metadata = {
   title: 'Green Powered Systems LTD',
@@ -8,12 +11,30 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+
+  const [loading, setLoading] = useState(false)
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, [3000]);
+  }, []);
+
+
   return (
     <html lang="en">
       <body>
-        <Navbar />
-        {children}
-        <Footer />
+        {
+          loading ? <div className="flex justify-center items-center w-full h-[100vh] flex-col mb-4">
+            <Loading />
+          </div> :
+            <>
+              <Navbar />
+              {children}
+              <Footer />
+            </>
+        }
       </body>
     </html>
   )
