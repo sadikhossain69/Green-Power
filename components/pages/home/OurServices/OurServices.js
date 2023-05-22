@@ -5,7 +5,7 @@ const OurServices = () => {
                 <div className="text-center">
                     <h5 className="font-semibold">Our Services</h5>
                     <h1 className="text-[#0000FF] font-semibold
-                    text-3xl">What do we offer</h1>
+                    text-3xl font-[Righteous]">What do we offer</h1>
                     <p>
                         We are the pioneers of electrical services for both ecological and environmental cause.
                     </p>
