@@ -27,8 +27,13 @@ export default function Home() {
   return (
     <>
       {
-        loading ? <Spinner /> :
-          <>
+        loading
+          ?
+          <div className="flex justify-center items-center w-screen h-screen">
+            <Spinner />
+          </div>
+          :
+          <main>
             <Navbar />
             <HeroSection />
             <AboutUs />
@@ -38,7 +43,7 @@ export default function Home() {
             <BigImage />
             <ContactAddress />
             <Footer />
-          </>
+          </main>
       }
     </>
   )
