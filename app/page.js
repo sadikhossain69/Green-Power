@@ -9,7 +9,6 @@ import LogoSlider from "@/components/pages/home/LogoSlider/LogoSlider";
 import OurServices from "@/components/pages/home/OurServices/OurServices";
 import WhatWeDo from "@/components/pages/home/WhatWeDo/WhatWeDo";
 import { useEffect, useState } from "react";
-import Loading from "./loading";
 import Spinner from "@/utils/Spinner";
 
 export default function Home() {
