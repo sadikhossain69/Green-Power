@@ -25,7 +25,7 @@ export default function Home() {
 
 
   return (
-    <main>
+    <>
       {
         loading ? <Loading /> :
           <>
@@ -40,6 +40,6 @@ export default function Home() {
             <Footer />
           </>
       }
-    </main>
+    </>
   )
 }
