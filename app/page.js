@@ -33,17 +33,19 @@ export default function Home() {
             <Spinner />
           </div>
           :
-          <main>
+          <>
             <Navbar />
-            <HeroSection />
-            <AboutUs />
-            <WhatWeDo />
-            <OurServices />
-            <LogoSlider />
-            <BigImage />
-            <ContactAddress />
+            <main className="md:px-16">
+              <HeroSection />
+              <AboutUs />
+              <WhatWeDo />
+              <OurServices />
+              <LogoSlider />
+              <BigImage />
+              <ContactAddress />
+            </main>
             <Footer />
-          </main>
+          </>
       }
     </>
   )
