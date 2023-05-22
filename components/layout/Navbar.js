@@ -13,7 +13,9 @@ const Navbar = () => {
                             <li><a>Services</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl">GPS</a>
+                    <a className="btn btn-ghost normal-case text-xl">
+                        <img src="companyLogo.png" alt="" width={150} />
+                    </a>
                 </div>
                 <div className="navbar-end md:hidden flex justify-end">
                     <a className="btn bg-primary">contact us</a>
