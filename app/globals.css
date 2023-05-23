@@ -8,7 +8,7 @@
 body,
 * {
     scroll-behavior: smooth;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif, 'Righteous', cursive;
 }
 
 .fonts-setup {
