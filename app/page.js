@@ -11,6 +11,7 @@ import WhatWeDo from "@/components/pages/home/WhatWeDo/WhatWeDo";
 import { useEffect, useState } from "react";
 import Spinner from "@/utils/Spinner";
 import Contact from "@/components/pages/home/Contact/Contact";
+import { AnimatePresence } from "framer-motion";
 
 export default function Home() {
 
@@ -35,18 +36,20 @@ export default function Home() {
           </div>
           :
           <>
-            <Navbar />
-            <main className="md:px-16">
-              <HeroSection />
-              <AboutUs />
-              <WhatWeDo />
-              <OurServices />
-              <LogoSlider />
-              <BigImage />
-              <Contact />
-              <ContactAddress />
-            </main>
-            <Footer />
+            <AnimatePresence mode="wait">
+              <Navbar />
+              <main className="md:px-16">
+                <HeroSection />
+                <AboutUs />
+                <WhatWeDo />
+                <OurServices />
+                <LogoSlider />
+                <BigImage />
+                <Contact />
+                <ContactAddress />
+              </main>
+              <Footer />
+            </AnimatePresence>
           </>
       }
     </>
