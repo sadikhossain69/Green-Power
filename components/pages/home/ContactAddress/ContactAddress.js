@@ -8,8 +8,8 @@ const ContactAddress = () => {
             <section className='container mx-auto my-5'>
                 <div className='flex flex-col md:flex-row justify-around shadow-xl border py-10 px-5'>
                     <div className='flex items-center space-x-4'>
-                        <span>
-                            <BsFillTelephoneFill color='blue' />
+                        <span className="bg-[#0454A9] rounded-full p-2">
+                            <BsFillTelephoneFill size={15} color="white"  />
                         </span>
                         <div>
                             <p className="text-xs font-semibold">Call Anytime</p>
@@ -17,8 +17,8 @@ const ContactAddress = () => {
                         </div>
                     </div>
                     <div className='flex items-center space-x-4'>
-                        <span>
-                            <AiFillMail color='blue' />
+                        <span className="bg-[#0454A9] rounded-full p-2">
+                            <AiFillMail size={15} color="white"  />
                         </span>
                         <div>
                             <p className="text-xs font-semibold">Send Email</p>
@@ -26,8 +26,8 @@ const ContactAddress = () => {
                         </div>
                     </div>
                     <div className='flex items-center space-x-4'>
-                        <span>
-                            <IoLocationSharp color='blue' />
+                        <span className="bg-[#0454A9] rounded-full p-2">
+                            <IoLocationSharp size={15} color="white"  />
                         </span>
                         <div>
                             <p className="text-xs font-semibold">Visit Anytime</p>
@@ -35,8 +35,8 @@ const ContactAddress = () => {
                         </div>
                     </div>
                     <div className='flex items-center space-x-4'>
-                        <span>
-                            <BsWatch color='blue' />
+                        <span className="bg-[#0454A9] rounded-full p-2">
+                            <BsWatch size={15} color="white"  />
                         </span>
                         <div>
                             <p className="text-xs font-semibold">Working Hour</p>

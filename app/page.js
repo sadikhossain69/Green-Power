@@ -10,6 +10,7 @@ import OurServices from "@/components/pages/home/OurServices/OurServices";
 import WhatWeDo from "@/components/pages/home/WhatWeDo/WhatWeDo";
 import { useEffect, useState } from "react";
 import Spinner from "@/utils/Spinner";
+import Contact from "@/components/pages/home/Contact/Contact";
 
 export default function Home() {
 
@@ -42,6 +43,7 @@ export default function Home() {
               <OurServices />
               <LogoSlider />
               <BigImage />
+              <Contact />
               <ContactAddress />
             </main>
             <Footer />
