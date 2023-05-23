@@ -11,6 +11,10 @@ body,
     font-family: 'Poppins', sans-serif;
 }
 
+.fonts-setup {
+    font-family: 'Righteous', cursive;
+}
+
 /* Spinner Css Code Start */
 
 .loader {
