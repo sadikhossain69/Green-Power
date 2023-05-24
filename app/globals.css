@@ -15,6 +15,11 @@ body,
     font-family: 'Righteous', cursive;
 }
 
+.imagees:hover {
+    transform: translateY(-20px) !important;
+    transition: 0.5s !important;
+}
+
 /* Spinner Css Code Start */
 
 .loader {

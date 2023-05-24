@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  important: true,
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -10,7 +11,7 @@ module.exports = {
       {
         mytheme: {
 
-          "primary": "#570DF8",
+          "primary": "#0000FF",
 
           "secondary": "#F000B8",
 

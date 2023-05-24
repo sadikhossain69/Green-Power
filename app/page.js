@@ -38,7 +38,7 @@ export default function Home() {
           <>
             <AnimatePresence mode="wait">
               <Navbar />
-              <main className="md:px-16">
+              <main className="lg:px-24">
                 <HeroSection />
                 <AboutUs />
                 <WhatWeDo />
