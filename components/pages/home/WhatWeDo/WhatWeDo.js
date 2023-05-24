@@ -1,3 +1,5 @@
+import { Zoom } from "react-reveal";
+
 const WhatWeDo = () => {
     return (
         <>
@@ -6,12 +8,16 @@ const WhatWeDo = () => {
                     <p className="text-[#0000FF] text-3xl text-center font-semibold font-[Righteous]">What do we do?!</p>
                 </div>
                 <div className=" relative flex flex-col justify-between items-center lg:flex-row py-10 px-5">
-                    <img src="whatWeDoLeft.jpg" alt="" />
+                    <Zoom>
+                        <img src="whatWeDoLeft.jpg" alt="" />
+                    </Zoom>
                     <p className="text-[#0000FF]  text-center text-6xl font-[Righteous]">
                         Give us a call to get started
                     </p>
                     <div className="hidden xl:block absolute bottom-28 left-[35%] w-96 border-b-2 border-[#52FF00]"></div>
-                    <img src="whatWeDoRight.jpg" alt="" />
+                    <Zoom>
+                        <img src="whatWeDoRight.jpg" alt="" />
+                    </Zoom>
                 </div>
                 <div>
                     <span className="flex justify-center">
