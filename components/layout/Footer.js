@@ -7,17 +7,14 @@ const Footer = () => {
                         <div className="  px-4">
                             <p className="text-sm">Send Email</p>
                             <h1 className="text-lg text-white font-semibold">
-                                roy@greenpoweredsystems.ie
+                                <a href="mailto:roy@greenpoweredsystems.ie">roy@greenpoweredsystems.ie</a>
                             </h1>
                         </div>
                         <div className="  px-4">
                             <p className="text-sm">Call Now</p>
                             <div>
                                 <h1 className="text-lg text-white font-semibold">
-                                    +353858120054
-                                </h1>
-                                <h1 className="text-lg text-white font-semibold">
-                                    +353858120054
+                                    <a href="tel:+353858120054">+353858120054</a>
                                 </h1>
                             </div>
                         </div>

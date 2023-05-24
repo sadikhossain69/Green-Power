@@ -22,7 +22,7 @@ const Contact = () => {
                                 </span>
                                 <div>
                                     <p className="text-sm">Call Anytime</p>
-                                    <p className="font-semibold">+353 85 10 22 100</p>
+                                    <p className="font-semibold"><a href="tel:+353851022100">+353 85 10 22 100</a></p>
                                 </div>
                             </div>
                             <div className="flex items-center space-x-3 mt-3">
@@ -31,7 +31,7 @@ const Contact = () => {
                                 </span>
                                 <div>
                                     <p className="text-sm">Send Email</p>
-                                    <p className="font-semibold">roy@greenpoweredsystems.ie </p>
+                                    <p className="font-semibold"><a href="mailto:roy@greenpoweredsystems.ie">roy@greenpoweredsystems.ie</a> </p>
                                 </div>
                             </div>
                         </div>
