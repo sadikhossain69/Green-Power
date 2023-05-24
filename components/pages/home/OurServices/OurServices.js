@@ -3,7 +3,7 @@ import { Zoom } from "react-reveal";
 const OurServices = () => {
     return (
         <>
-            <section className="container mx-auto">
+            <section id="services" className="container mx-auto">
                 <div className="text-center">
                     <h5 className="font-semibold">Our Services</h5>
                     <h1 className="text-[#0000FF] font-semibold

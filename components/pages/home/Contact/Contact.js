@@ -1,11 +1,11 @@
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillTelephoneFill } from "react-icons/bs";
-import { Slide } from "react-reveal";
+import { Fade, Slide, Zoom } from "react-reveal";
 
 const Contact = () => {
     return (
         <>
-            <section className="container mx-auto bg-[#F2F2FE] py-10">
+            <section id="contact" className="container mx-auto bg-[#F2F2FE] py-10">
                 <div className="flex md:justify-between md:pl-44 2xl:pl-64 pb-10 justify-center">
                     <p className="text-2xl text-[#0454A9] font-semibold font-[Righteous]">Contact Us To Know More</p>
                     <p></p>

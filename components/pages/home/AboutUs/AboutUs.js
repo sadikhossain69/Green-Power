@@ -3,7 +3,7 @@ import { Fade } from "react-reveal";
 const AboutUs = () => {
     return (
         <>
-            <section className="bg-[#F2F2FE]">
+            <section id="about" className="bg-[#F2F2FE]">
                 <div className="text-center space-y-2 pt-4">
                     <p className="font-semibold">About Us</p>
                     <h2 className="text-[#0000FF] text-3xl font-semibold font-[Righteous]">What Are We?!</h2>
