@@ -14,7 +14,7 @@ const Contact = () => {
                     <Slide left>
                         <div className="md:border-r-2 md:border-[#0454A9] w-full md:w-1/2 lg:pl-56 2xl:pl-80">
                             <span>
-                                <img className="bg-[#F2F2FE]" src="contact.jpg" alt="" />
+                                <img className="bg-[#F2F2FE]" src="contact.png" alt="" />
                             </span>
                             <div className="flex items-center space-x-3 pt-5">
                                 <span className="bg-[#0454A9] rounded-full p-2">
