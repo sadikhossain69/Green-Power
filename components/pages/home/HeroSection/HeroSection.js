@@ -1,4 +1,4 @@
-import { inter } from '@/app/fonts';
+import { inter, roboto_mono } from '@/app/fonts';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useState } from 'react';
 import { AiFillStar } from 'react-icons/ai';
@@ -9,7 +9,7 @@ const HeroSection = () => {
 
     return (
         <>
-            <div className={inter.className}>
+            <div className={roboto_mono.className}>
                 <section className="text-gray-600 body-font bg-white ">
                     <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col-reverse items-center">
                         <Fade left>
