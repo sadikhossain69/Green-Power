@@ -14,13 +14,14 @@ const Navbar = () => {
                                 <li><a href="/">Home</a></li>
                                 <li><a href="#about">About</a></li>
                                 <li><a href="#services">Services</a></li>
+                                <li><a href="#contact">Contact</a></li>
                             </ul>
                         </div>
                         <a className="btn btn-ghost normal-case text-xl" href="/">
                             <img src="companyLogo.png" alt="" width={150} />
                         </a>
                     </div>
-                    <div className="navbar-end md:hidden flex justify-end">
+                    <div className="navbar-end hidden ">
                         <a className="btn bg-primary">contact us</a>
                     </div>
                     <div className="navbar-end hidden md:inline-flex space-x-5">
