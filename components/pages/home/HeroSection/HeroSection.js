@@ -1,4 +1,4 @@
-import { inter, roboto_mono } from '@/app/fonts';
+import { akshar, inter} from '@/app/fonts';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useState } from 'react';
 import { AiFillStar } from 'react-icons/ai';
@@ -9,13 +9,13 @@ const HeroSection = () => {
 
     return (
         <>
-            <div className={roboto_mono.className}>
+            <div className={inter.className}>
                 <section className="text-gray-600 body-font bg-white ">
                     <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col-reverse items-center">
                         <Fade left>
                             <div
                                 className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                                <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-[#0000FF] fonts-setup">GREEN POWERED
+                                <h1 className={`title-font sm:text-4xl text-3xl mb-4 font-bold text-[#0000FF] ${akshar.className}`}>GREEN POWERED
                                     <br className="hidden lg:inline-block" />SYSTEMS
                                 </h1>
                                 <p className="text-black font-semibold mb-3">
