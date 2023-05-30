@@ -14,7 +14,7 @@ const Contact = () => {
                     </div>
                     <div className="flex flex-col md:flex-row items-center">
                         <Slide left>
-                            <div className="md:border-r-2 md:border-[#0454A9] w-full md:w-1/2 lg:pl-56 2xl:pl-80">
+                            <div className="md:border-r-2 md:border-[#0454A9] w-full md:w-1/2 lg:pl-56 2xl:pl-80 pl-5">
                                 <span>
                                     <img className="bg-[#F2F2FE]" src="contact.png" alt="" />
                                 </span>
@@ -39,7 +39,7 @@ const Contact = () => {
                             </div>
                         </Slide>
                         <Slide right>
-                            <div className="w-full md:w-1/2 md:px-20">
+                            <div className="w-full md:w-1/2 md:px-20 p-5">
                                 <form action="">
                                     <div className="flex flex-col">
                                         <label className="text-semibold" htmlFor="">Name</label>

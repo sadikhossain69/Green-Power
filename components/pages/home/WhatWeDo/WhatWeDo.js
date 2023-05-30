@@ -9,7 +9,7 @@ const WhatWeDo = () => {
                     <div>
                         <p className={`text-[#0000FF] text-3xl text-center font-semibold ${akshar.className}`}>What do we do?!</p>
                     </div>
-                    <div className=" relative flex flex-col justify-between items-center lg:flex-row py-10 px-5">
+                    <div className=" relative flex flex-col justify-between items-center lg:flex-row py-10 px-5 space-y-4 md:space-y-0">
                         <Zoom>
                             <img src="whatWeDoLeft.jpg" alt="" />
                         </Zoom>
