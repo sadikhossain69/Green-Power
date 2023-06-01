@@ -40,9 +40,9 @@ export default function Home() {
               <Navbar />
               <main className="lg:px-24">
                 <HeroSection />
-                <AboutUs />
                 <WhatWeDo />
                 <OurServices />
+                <AboutUs />
                 <LogoSlider />
                 <BigImage />
                 <Contact />

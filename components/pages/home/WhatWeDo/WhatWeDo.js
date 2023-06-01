@@ -8,6 +8,9 @@ const WhatWeDo = () => {
                 <div className=" container mx-auto py-10">
                     <div>
                         <p className={`text-[#0000FF] text-3xl text-center font-semibold ${akshar.className}`}>What do we do?!</p>
+                        <p className="text-sm text-center mt-2">
+                            We are the pioneers of electrical services for both ecological and environmental cause.
+                        </p>
                     </div>
                     <div className=" relative flex flex-col justify-between items-center lg:flex-row py-10 px-5 space-y-4 md:space-y-0">
                         <Zoom>
