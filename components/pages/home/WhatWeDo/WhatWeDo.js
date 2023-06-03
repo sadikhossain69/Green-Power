@@ -16,10 +16,10 @@ const WhatWeDo = () => {
                         <Zoom>
                             <img src="whatWeDoLeft.jpg" alt="" />
                         </Zoom>
-                        <p className={`text-[#0000FF]  text-center text-6xl ${akshar.className}`}>
+                        <p className={`text-[#0000FF]  text-center text-6xl ${akshar.className} border-b-2 border-[#52FF00] mx-4`}>
                             Give us a call to get started
                         </p>
-                        <div className="hidden xl:block absolute bottom-28 left-[35%] w-96 border-b-2 border-[#52FF00]"></div>
+                        {/* <div className="hidden xl:block absolute bottom-28 left-[35%] w-96 border-b-2 border-[#52FF00]"></div> */}
                         <Zoom>
                             <img src="whatWeDoRight.jpg" alt="" />
                         </Zoom>

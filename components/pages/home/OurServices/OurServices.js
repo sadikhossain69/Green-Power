@@ -4,7 +4,7 @@ import { Zoom } from "react-reveal";
 const OurServices = () => {
     return (
         <>
-            <section className={`${inter.className}`}>
+            <section className={`${inter.className} mb-5`}>
                 <div id="services" className="container mx-auto">
                     <div className="text-center">
                         <h5 className="font-semibold">Our Services</h5>

@@ -40,8 +40,8 @@ export default function Home() {
               <Navbar />
               <main className="lg:px-24">
                 <HeroSection />
-                <OurServices />
                 <WhatWeDo />
+                <OurServices />
                 <AboutUs />
                 <LogoSlider />
                 <BigImage />

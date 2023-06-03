@@ -1,6 +1,7 @@
 import { akshar, inter } from "@/app/fonts";
-import { AiOutlineMail } from "react-icons/ai";
-import { BsFillTelephoneFill } from "react-icons/bs";
+import { AiFillFacebook, AiOutlineMail } from "react-icons/ai";
+import { BsFacebook, BsFillTelephoneFill } from "react-icons/bs";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { Fade, Slide, Zoom } from "react-reveal";
 
 const Contact = () => {
@@ -34,6 +35,23 @@ const Contact = () => {
                                     <div>
                                         <p className="text-sm">Send Email</p>
                                         <p className="font-semibold"><a href="mailto:roy@greenpoweredsystems.ie">roy@greenpoweredsystems.ie</a> </p>
+                                    </div>
+                                </div>
+                                <div className="flex items-center space-x-3 mt-3">
+                                    <span className="bg-[#0454A9] rounded-full p-2">
+                                        <FaFacebookF size={15} color="white" />
+                                    </span>
+                                    <div>
+                                        <a href="https://www.facebook.com/GreenPoweredSystems" target="_blank" className="text-sm font-semibold text-blue-500">Facebook</a>
+                                    </div>
+                                </div>
+                                <div className="flex items-center space-x-3 mt-3">
+                                    <span className="bg-[#0454A9] rounded-full p-2">
+                                        <FaInstagram size={15} color="white" />
+                                    </span>
+                                    <div>
+                                        <a href="https://www.instagram.com/green_powered_systems12" target="_blank" className="text-sm font-semibold text-blue-500">Instagram</a>
+                                        
                                     </div>
                                 </div>
                             </div>

@@ -22,8 +22,8 @@ const HeroSection = () => {
                                     Electrical Services
                                 </p>
                                 <p className="mb-8 leading-relaxed">We are the pioneers of electrical services for both ecological and environmental cause.</p>
-                                <div className="flex justify-center">
-                                    <button className=" text-white bg-primary border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Explore Now</button>
+                                <div className="flex justify-center items-center">
+                                    <a href='#services' className=" text-white bg-primary border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Explore Now</a>
 
                                     <div className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg flex-col">
                                         <p className="text-xs">Best in class</p>
